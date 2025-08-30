@@ -9,8 +9,8 @@ from adxl343 import ADXL343
 time.sleep(5)
 
 # --- Flight Configuration ---
-LOADING_DURATION_S = 5
-LOG_DURATION_S = 5
+LOADING_DURATION_S = 60
+LOG_DURATION_S = 30
 TARGET_SAMPLE_RATE_HZ = 100   # MODIFIED: Reduced from 450 to 50 Hz
 BUFFER_SIZE = 250
 LAUNCH_G_FORCE_THRESHOLD = 1.5
